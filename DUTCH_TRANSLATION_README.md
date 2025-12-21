@@ -104,6 +104,36 @@ Links worden aangepast om naar de juiste taalversie te verwijzen:
 
 Externe links (GitHub, Discord, etc.) blijven onveranderd.
 
+#### 6. **Afbeeldingen en Media**
+
+Afbeeldingen worden NIET gekopieerd naar de `/nl/` directory. In plaats daarvan verwijzen Nederlandse bestanden naar de originele Engelse afbeeldingen met aangepaste relatieve paden:
+
+**Engels (in `/docs/usage/interface.md`):**
+```markdown
+![Trio Main Screen](img/light_mode_sections.png){width="500"}
+```
+
+**Nederlands (in `/docs/nl/usage/interface.md`):**
+```markdown
+![Trio Hoofdscherm](../usage/img/light_mode_sections.png){width="500"}
+```
+
+**Belangrijk:** Het pad moet één directory omhoog (`../`) om uit `/nl/` te komen, en dan naar de originele locatie verwijzen.
+
+**Voorbeelden voor verschillende locaties:**
+
+- Van `/docs/nl/usage/interface.md` → gebruik `../usage/img/`
+- Van `/docs/nl/configuration/new-user-setup.md` → gebruik `../configuration/img/`
+- Van `/docs/nl/index.md` → gebruik `assets/images/` (geen `../` nodig op root niveau)
+- Van `/docs/nl/usage/index.md` → gebruik `../../assets/images/`
+- Van `/docs/nl/usage/concepts/index.md` → gebruik `../../../assets/images/`
+
+**Video's** werken hetzelfde, maar let op absolute paden die beginnen met `/`:
+```markdown
+<source src="/configuration/img/trio-phone-mockup.mp4" type="video/mp4">
+```
+Deze absolute paden hoeven NIET aangepast te worden.
+
 ## Vertaalstatus
 
 ### Voltooid ✅

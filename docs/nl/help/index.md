@@ -1,6 +1,6 @@
 # Hulp (Help)
 
-![Trio Logo](../../assets/images/trio-logo.png){ .skip-lightbox width="75" align="left" }
+![Trio Logo](../assets/images/trio-logo.png){ .skip-lightbox width="75" align="left" }
 Welkom op de hulp homepage! Hier vindt u verschillende bronnen die u zullen helpen bij uw gebruik van Trio.  
 
 Gebruik het navigatiemenu :fontawesome-solid-bars:, de zoekbalk :fontawesome-solid-magnifying-glass:, of het onderstaande menu om de sectie te vinden die u zoekt.
