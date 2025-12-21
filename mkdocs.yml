@@ -131,6 +131,7 @@ extra_javascript:
   - assets/javascripts/disable-instant-if-translated.js
   - assets/javascripts/mathjax.js
   - assets/javascripts/mkdocs-exporter.js
+  - assets/javascripts/language-switcher.js
   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js
   - https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.9.1/mermaid.min.js
 
@@ -147,6 +148,13 @@ extra:
       link: https://www.facebook.com/groups/diytrio
       name: Trio on Facebook
   version: 0.4.0
+  alternate:
+    - name: English
+      link: /
+      lang: en
+    - name: Nederlands
+      link: /nl/
+      lang: nl
 
 watch:
   - includes
