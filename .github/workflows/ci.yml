@@ -15,7 +15,6 @@ on:
 jobs:
   ci:
     runs-on: ubuntu-latest
-    if: github.repository_owner == 'nightscout'
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
