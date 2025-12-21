@@ -65,28 +65,28 @@ De standaardmanier om uw CR aan te passen is een testmaaltijd experiment, dat ka
 
 Open het CR Profiel scherm (CR Profile screen)
 
-![CR Profile Menu](../configuration/settings/therapy/img/carb_menu.png){ width="600px"  }
+![CR Profile Menu](../../../../configuration/settings/therapy/img/carb_menu.png){ width="600px"  }
 {align=center}
 
 ### Stap 2 (Step 2)
 
 Tik op de "Add Rate +" knop rechtsboven totdat u het aantal CR's heeft dat u nodig heeft. Bewerk vervolgens elke ratio door op de pijl rechts van de CR te tikken.
 
-![Add Edit CR](../configuration/settings/therapy/img/cr_profile.png){ width="300px"  }
+![Add Edit CR](../../../../configuration/settings/therapy/img/cr_profile.png){ width="300px"  }
 {align=center}
 
 ### Stap 3 (Step 3)
 
 Pas de ratio aan
 
-![Edit CR Rate](../configuration/settings/therapy/img/set_carb_ratio.png){ width="600px"  }
+![Edit CR Rate](../../../../configuration/settings/therapy/img/set_carb_ratio.png){ width="600px"  }
 {align=center}
 
 ### Stap 4 (Step 4)
 
 Pas de tijd aan
 
-![Edit CR Time](../configuration/settings/therapy/img/set_carb_time.png){ width="600px"  }
+![Edit CR Time](../../../../configuration/settings/therapy/img/set_carb_time.png){ width="600px"  }
 {align=center}
 
 ### Stap 5 (Step 5)
@@ -97,14 +97,14 @@ Herhaal Stappen [2](#stap-2-step-2), [3](#stap-3-step-3), en [4](#stap-4-step-4)
 
 Als u een CR invoer moet verwijderen, veeg dan gewoon naar links op de ratio die u wilt verwijderen.
 
-![Delete CR](../configuration/settings/therapy/img/5_delete_cr_profile.png){ width="300px"  }
+![Delete CR](../../../../configuration/settings/therapy/img/5_delete_cr_profile.png){ width="300px"  }
 {align=center}
 
 ### Stap 6 **BELANGRIJK** (Step 6 **IMPORTANT**)
 
 Sla uw wijzigingen op!
 
-![Save CR Changes](../configuration/settings/therapy/img/save_cr_profile.png){ width="300px"  }
+![Save CR Changes](../../../../configuration/settings/therapy/img/save_cr_profile.png){ width="300px"  }
 {align=center}
 
 ### Stap 7 (Step 7)

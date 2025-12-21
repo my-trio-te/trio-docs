@@ -46,28 +46,28 @@ U kunt ook uw IOB monitoren om te bepalen of uw basaalprofiel nauwkeurig is. Con
 
 Open het Basaalprofiel scherm (Basal Profile screen)
 
-![Basal Profile Menu](../configuration/settings/therapy/img/basal_profile_menu.png){ width="600px"  }
+![Basal Profile Menu](../../../../configuration/settings/therapy/img/basal_profile_menu.png){ width="600px"  }
 {align=center}
 
 ### Stap 2 (Step 2)
 
 Tik op de "Add Rate +" knop rechtsboven totdat u het aantal basaalstanden heeft dat u nodig heeft. Bewerk vervolgens elke stand door op de pijl rechts van de basaalstand te tikken.
 
-![Add Edit Basal](../configuration/settings/therapy/img/basal_profile.png){ width="300px"  }
+![Add Edit Basal](../../../../configuration/settings/therapy/img/basal_profile.png){ width="300px"  }
 {align=center}
 
 ### Stap 3 (Step 3)
 
 Pas de stand aan
 
-![Edit Basal Rate](../configuration/settings/therapy/img/set_basal_profile_rate.png){ width="600px"  }
+![Edit Basal Rate](../../../../configuration/settings/therapy/img/set_basal_profile_rate.png){ width="600px"  }
 {align=center}
 
 ### Stap 4 (Step 4)
 
 Pas de tijd aan
 
-![Edit Basal Time](../configuration/settings/therapy/img/set_basal_profile_time.png){ width="600px"  }
+![Edit Basal Time](../../../../configuration/settings/therapy/img/set_basal_profile_time.png){ width="600px"  }
 {align=center}
 
 ### Stap 5 (Step 5)
@@ -78,14 +78,14 @@ Herhaal Stappen [2](#stap-2-step-2), [3](#stap-3-step-3), en [4](#stap-4-step-4)
 
 Als u een basaalstand moet verwijderen, veeg dan gewoon naar links op de stand die u wilt verwijderen.
 
-![Delete Basal](../configuration/settings/therapy/img/5_delete_basal.png){ width="300px"  }
+![Delete Basal](../../../../configuration/settings/therapy/img/5_delete_basal.png){ width="300px"  }
 {align=center}
 
 ### Stap 6 **BELANGRIJK** (Step 6 **IMPORTANT**)
 
 Sla uw wijzigingen op!
 
-![Save Changes](../configuration/settings/therapy/img/save_profile.png){ width="300px"  }
+![Save Changes](../../../../configuration/settings/therapy/img/save_profile.png){ width="300px"  }
 {align=center}
 
 ### Stap 7 (Step 7)

@@ -124,9 +124,13 @@ Afbeeldingen worden NIET gekopieerd naar de `/nl/` directory. In plaats daarvan 
 
 - Van `/docs/nl/usage/interface.md` → gebruik `../usage/img/`
 - Van `/docs/nl/configuration/new-user-setup.md` → gebruik `../configuration/img/`
+- Van `/docs/nl/configuration/settings/therapy/basal-rates.md` → gebruik `../../../../configuration/settings/therapy/img/`
+- Van `/docs/nl/configuration/settings/devices/pump.md` → gebruik `../../../../configuration/settings/devices/img/`
 - Van `/docs/nl/index.md` → gebruik `assets/images/` (geen `../` nodig op root niveau)
 - Van `/docs/nl/usage/index.md` → gebruik `../../assets/images/`
 - Van `/docs/nl/usage/concepts/index.md` → gebruik `../../../assets/images/`
+
+**Formule:** Tel hoeveel directories diep je zit onder `/docs/nl/`, dat is het aantal `../` dat je nodig hebt om terug te gaan naar `/docs/`.
 
 **Video's** werken hetzelfde, maar let op absolute paden die beginnen met `/`:
 ```markdown
