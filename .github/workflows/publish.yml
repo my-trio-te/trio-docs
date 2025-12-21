@@ -1,22 +1,30 @@
-name: publish
+name: Deploy to GitHub Pages
 
 # Controls when the action will run.
 on:
   # Remark: uncomment one section only
   # Remark: Next 1 line requires manual action, Click on action tab, then publish
   # workflow_dispatch
-  # Remark: Next 5 lines triggers the workflow on push events for the main branch
+  # Remark: Next 5 lines triggers the workflow on push events for the dev branch
   push:
     branches:
       - dev
     paths-ignore:
       - "README.md"
 
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: read
+      pages: write
+      id-token: write
     if: github.repository_owner == 'nightscout'
     steps:
       - name: Checkout Repository
@@ -59,8 +67,14 @@ jobs:
       - name: Build Website
         run: MKDOCS_EXPORTER_PDF=true mkdocs build
 
-      - name: Push Website to gh-pages Branch
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          branch: gh-pages
-          folder: site
+          path: ./site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
