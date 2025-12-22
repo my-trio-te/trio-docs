@@ -22,11 +22,11 @@ document.addEventListener('DOMContentLoaded', function() {
         targetFlag = '🇬🇧';
     } else {
         // Currently on English, switch to Dutch
-        // Insert /nl/ after /docs/
-        targetUrl = currentPath.replace('/docs/', '/docs/nl/');
-        if (!targetUrl.includes('/nl/')) {
-            // Fallback for root
+        // Prepend /nl to the current path
+        if (currentPath === '/' || currentPath === '') {
             targetUrl = '/nl/';
+        } else {
+            targetUrl = '/nl' + currentPath;
         }
         targetLang = 'Nederlands';
         targetFlag = '🇳🇱';

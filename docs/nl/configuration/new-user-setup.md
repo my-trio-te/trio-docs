@@ -2,7 +2,7 @@
 
 Welkom bij de Nieuwe Gebruiker Installatiegids en gefeliciteerd met een succesvolle Trio build! Deze gids leidt u door het instellen van uw Trio app nadat u deze op uw telefoon heeft geïnstalleerd.  
 
-Als u de app nog moet installeren, ga dan naar de Build Instructies voor [Mac](../install/build/mac/overview.md) of [Browser](../install/build/browser/browser-build-overview.md) en kom hier terug wanneer u klaar bent om het installatieproces te starten!
+Als u de app nog moet installeren, ga dan naar de Build Instructies voor [Mac](../../install/build/mac/overview.md) of [Browser](../../install/build/browser/browser-build-overview.md) en kom hier terug wanneer u klaar bent om het installatieproces te starten!
 
 - - -
 ## Onboarding Wizard
@@ -11,7 +11,7 @@ Trio heeft een Onboarding Wizard die u door deze stappen leidt wanneer u de app 
     
 <div class="grid" markdown>
 
-![Onboarding Screen](../configuration/img/onboarding-guide.png)
+![Onboarding Screen](../../configuration/img/onboarding-guide.png)
 
 === "Tijdens Onboarding (During Onboarding)"
     
@@ -100,13 +100,13 @@ In deze stap configureert u diagnostische gegevensdeling, optioneel synchroniser
     
     ### Glucose Eenheden Bewerken
     
-    ![Units and Limits](../configuration/img/unitsandlimits.png){ width="400px" }  
+    ![Units and Limits](../../configuration/img/unitsandlimits.png){ width="400px" }  
     [Lees meer over het instellen van uw Glucose Eenheden](settings/therapy/units-limits.md#glucose-units)
     {align=center}
     
     ### Insulinepomp Bewerken
     
-    ![Devices Settings](../configuration/img/pumpMenu.png){ width="400px" }  
+    ![Devices Settings](../../configuration/img/pumpMenu.png){ width="400px" }  
     [Leer hoe u uw insulinepomp verbindt of wijzigt](settings/devices/pump.md)
     {align=center}  
     
@@ -137,15 +137,15 @@ De volgende stap is het invoeren van uw Therapie-instellingen (Therapy Settings)
 === "Na Onboarding"
     
     Hier is hoe u deze instellingen kunt vinden na onboarding:  
-    ![Therapy Settings](../configuration/img/TherapyMenu.png){ width="400px"  }
+    ![Therapy Settings](../../configuration/img/TherapyMenu.png){ width="400px"  }
     {align=center}
     
     Hieronder vindt u een stapsgewijze handleiding om elk van deze instellingen te bewerken:
     
-    - [Glucosedoelen](settings/therapy/glucose-targets.md#how-to-enter-your-glucose-targets-into-trio)  
-    - [Basaalstanden](settings/therapy/basal-rates.md#how-to-enter-your-basal-profiles-into-trio)  
-    - [Koolhydraatratio's (CR)](settings/therapy/carb-ratios.md#how-to-enter-your-carb-ratios-cr-into-trio)  
-    - [Insuline Gevoeligheden (ISF)](settings/therapy/isf.md#how-to-enter-your-isf-into-trio)  
+    - [Glucosedoelen](settings/therapy/glucose-targets.md#hoe-uw-glucosedoelen-in-trio-invoeren-how-to-enter-your-glucose-targets-into-trio)  
+    - [Basaalstanden](settings/therapy/basal-rates.md#hoe-uw-basaalprofielen-in-trio-invoeren-how-to-enter-your-basal-profiles-into-trio)  
+    - [Koolhydraatratio's (CR)](settings/therapy/carb-ratios.md#hoe-uw-koolhydraatratioscr-in-trio-invoeren-how-to-enter-your-carb-ratios-into-trio)  
+    - [Insuline Gevoeligheden (ISF)](settings/therapy/isf.md#hoe-uw-isf-in-trio-invoeren-how-to-enter-your-isf-into-trio)  
 
 </div>
 
@@ -170,7 +170,7 @@ In deze stap stelt u de grenzen in voor insulinetoediening en koolhydraatinvoere
 === "Na Onboarding"
     
     Hier is hoe u deze instellingen kunt vinden na onboarding:  
-    ![Units and Limits](../configuration/img/unitsandlimits.png){ width="400px"  }
+    ![Units and Limits](../../configuration/img/unitsandlimits.png){ width="400px"  }
     {align=center}
     
     Hieronder vindt u meer informatie over elk van deze instellingen:
@@ -365,7 +365,7 @@ Deze kunnen niet worden voltooid totdat u de onboarding heeft afgerond, maar _mo
 
 Gesloten loop functionaliteit is standaard **UIT** gezet. Dit betekent dat Trio geen aanpassingen automatisch kan maken. Het systeem is volledig afhankelijk van u om aanpassingen te maken terwijl Gesloten Loop **UIT** staat. U kunt uw pomp bedienen en handmatig bolussen met de Trio app, maar niets kan worden gedaan zonder uw goedkeuring. Dit wordt vaak genoemd als draaien in open loop. U zult ***geen enkele door Trio geïnitieerde bescherming ontvangen tegen lage of hoge waarden terwijl in open loop***.
 
-![Enable Closed loop](../configuration/img/closeLoop.png){ width="500px" }  
+![Enable Closed loop](../../configuration/img/closeLoop.png){ width="500px" }  
 [Meer over de loop sluiten](settings/closed-loop.md)
 {align=center}
 
@@ -392,12 +392,12 @@ Gesloten loop functionaliteit is standaard **UIT** gezet. Dit betekent dat Trio 
 
 Onder "App Icons" in het Instellingenmenu kunt u verschillende iconen vinden voor uw Trio app.
 
-![Change App Icon](../configuration/img/icon_selection.png)
+![Change App Icon](../../configuration/img/icon_selection.png)
 {align=center}
 
 <!-- NOTE: Commented out until customizations page (install/customize.md) is updated. Will be removed if we do not include build customizations.
 Heeft u een speciaal icoon in gedachten?  
-U kunt uw eigen aangepast icoon gebruiken door de instructies te volgen onder [Customizations](../install/customize.md#add-custom-icon).
+U kunt uw eigen aangepast icoon gebruiken door de instructies te volgen onder [Customizations](../../install/customize.md#add-custom-icon).
 -->
 ***Gefeliciteerd!*** U heeft de Nieuwe Gebruiker Setup voor Trio voltooid!
 
