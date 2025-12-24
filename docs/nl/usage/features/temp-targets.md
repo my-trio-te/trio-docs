@@ -74,3 +74,4 @@ Wanneer u herstelt van een lage bloedsuiker, wilt u vooral niet dat Trio overcor
 - Zet *AAN (ON)* [High Temp Target Raises Sensitivity (Hoog Tijdelijk Doel Verhoogt Gevoeligheid)](../../configuration/settings/algorithm/target-behavior.md#high-temp-target-raises-sensitivity-hoog-tijdelijk-doel-verhoogt-gevoeligheid)
 
 
+

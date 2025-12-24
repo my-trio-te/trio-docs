@@ -2,7 +2,7 @@
 
 Trio's Statistieken functie biedt uitgebreide data-analyse en visualisatie van uw diabetes management statistieken. Bekijk gedetailleerde glucosepatronen, insulinegebruik, loop prestaties en maaltijdgegevens over meerdere tijdsperioden.
 
-![Trio Statistieken Scherm](../../usage/img/statistics.png){width="300"}
+![Trio Statistieken Scherm](../../../../usage/img/statistics.png){width="300"}
 {align="center"}
 
 - - -
@@ -17,7 +17,7 @@ Trio's Statistieken functie biedt uitgebreide data-analyse en visualisatie van u
     3. Selecteer een categorie tab (Glucose, Insuline, Looping, of Maaltijden)
     4. Kies uw voorkeur grafiektype en tijdsperiode
     
--   ![Toegang Trio Statistieken](../../usage/img/access_statistics.png){width="400"}
+-   ![Toegang Trio Statistieken](../../../../usage/img/access_statistics.png){width="400"}
     {align="center"}
     
 </div>
@@ -28,7 +28,7 @@ Trio's Statistieken functie biedt uitgebreide data-analyse en visualisatie van u
 
 Het Statistieken scherm is georganiseerd in vier hoofdcategorieën, elk toegankelijk via tabs bovenaan:
 
-![Trio Statistieken Categorieën](../../usage/img/statistics_categories.png){width="400"}
+![Trio Statistieken Categorieën](../../../../usage/img/statistics_categories.png){width="400"}
 {align="center"}
 
 - **Glucose** - CGM & bloedsuiker statistieken, tijd-in-bereik, en glucosedistributie
@@ -63,7 +63,7 @@ De Glucose sectie toont zeven belangrijke statistieken:
 
 #### 1. Percentiel per Tijd (Percentile by Time) - AGP (Ambulatory Glucose Profile)
 
-![Ambulatory Glucose Profile](../../usage/img/agp.png){width="300"}
+![Ambulatory Glucose Profile](../../../../usage/img/agp.png){width="300"}
 {align="center"}
 
 De standaardweergave toont uurlijkse glucosepercentielen over 24 uur:
@@ -83,7 +83,7 @@ Deze grafiek helpt identificeren:
 
 Toont het percentage tijd doorgebracht in elk glucosebereik voor elk uur van de dag:
 
-![Glucosedistributie](../../usage/img/glucose_distribution.png){width="300"}
+![Glucosedistributie](../../../../usage/img/glucose_distribution.png){width="300"}
 {align="center"}
 
 **Weergegeven bereiken**:
@@ -102,7 +102,7 @@ Gebruik dit om tijden te identificeren waarop u het meest waarschijnlijk buiten 
 
 Box plot die dagelijkse glucosedistributie toont:
 
-![Percentiel Per Dag](../../usage/img/percentile_by_day.png){width="300"}
+![Percentiel Per Dag](../../../../usage/img/percentile_by_day.png){width="300"}
 {align="center"}
 
 - Elke dag toont een box-en-whisker plot
@@ -113,7 +113,7 @@ Box plot die dagelijkse glucosedistributie toont:
 
 #### 4. Distributie per Dag (Distribution by Day)
 
-![Distributie Per Dag](../../usage/img/distribution_by_day.png){width="300"}
+![Distributie Per Dag](../../../../usage/img/distribution_by_day.png){width="300"}
 {align="center"}
 
 Gestapelde staafgrafiek die het percentage tijd in elk bereik per dag toont:
@@ -468,4 +468,5 @@ Gebruik deze statistieken om:
 - Voortgang richting uw diabetes management doelen te volgen
 
 Regelmatig bekijken van uw statistieken helpt ervoor te zorgen dat Trio optimaal werkt en uw instellingen nauwkeurig blijven naarmate uw insulinebehoeften veranderen.
+
 

@@ -132,6 +132,7 @@ extra_javascript:
   - assets/javascripts/mathjax.js
   - assets/javascripts/mkdocs-exporter.js
   - assets/javascripts/language-switcher.js
+  - assets/javascripts/fix-nl-tabs.js
   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js
   - https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.9.1/mermaid.min.js
 
@@ -150,10 +151,10 @@ extra:
   version: 0.4.0
   alternate:
     - name: English
-      link: /
+      link: /trio-docs/
       lang: en
     - name: Nederlands
-      link: /nl/
+      link: /trio-docs/nl/
       lang: nl
 
 watch:

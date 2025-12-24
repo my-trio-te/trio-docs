@@ -13,7 +13,7 @@ U kunt de bolus calculator bereiken door op het <span style="color: #7d8cf2;">:f
 
 Er zijn 4 hoofdsecties van de Bolus Calculator Interface:
 
-![Bolus Berekening Secties](../../usage/img/calculator-sections.png){width="500"}
+![Bolus Berekening Secties](../../../../usage/img/calculator-sections.png){width="500"}
 {align="center"}
 
 ### Dynamische Glucosevoorspelling (Dynamic Glucose Forecast)
@@ -23,7 +23,7 @@ Bekijk de onderstaande video om dit in actie te zien.
 
 <div class="video-center">
   <video controls  preload="metadata" height="664" width="334">
-    <source src="/usage/img/bolus-entry-dynamic-graph.mp4" type="video/mp4">
+    <source src="/usage/../../../usage/img/bolus-entry-dynamic-graph.mp4" type="video/mp4">
     Your browser doesn't support the HTML5 video tag.
   </video>
 </div>
@@ -62,7 +62,7 @@ Er zijn meerdere berekeningen die worden gebruikt om de bolus aanbeveling in Tri
 
 Een positieve berekening wordt groen getoond en een negatieve berekening wordt rood getoond.
 
-![Bolus Berekening Stappen](../../usage/img/bolus-calculation.png){width="500"}
+![Bolus Berekening Stappen](../../../../usage/img/bolus-calculation.png){width="500"}
 {align="center"}
 
 ### Glucose Berekening (Glucose Calculation)
@@ -363,4 +363,5 @@ Gefeliciteerd! U heeft de volledige bolus berekening voltooid. We realiseren ons
 !!! tip
     - Hoewel het **altijd** verstandig is om uw beste oordeel te gebruiken in plaats van blindelings de bolus aanbeveling te vertrouwen, zullen nauwkeurige instellingen de noodzaak voorkomen dat u handmatig moet ingrijpen en de bolus aanbeveling moet overschrijven.
     - Als uw glucose updates in het midden van uw maaltijd invoer, zal Trio uw berekening in real time updaten.
+
 

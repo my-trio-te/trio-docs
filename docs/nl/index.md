@@ -13,11 +13,11 @@
     De video verwijst naar Trio 1.0, wat pas het officiële versienummer zal zijn nadat de bètatests zijn voltooid en het naar de main branch is vrijgegeven.
 
 <video controls  preload="metadata">
-  <source src="assets/videos/trio-intro.mp4" type="video/mp4">
+  <source src="../assets/videos/trio-intro.mp4" type="video/mp4">
   Uw browser ondersteunt de HTML5 video tag niet.
 </video>
 
-![Trio Logo](assets/images/trio-logo.png){ .skip-lightbox width="150" align="right" }
+![Trio Logo](../assets/images/trio-logo.png){ .skip-lightbox width="150" align="right" }
 
 Trio is een open-source geautomatiseerd insulinetoedieningssysteem (OS-AID) voor iOS gebaseerd op het [OpenAPS algoritme](https://github.com/OpenAPS/oref0) met [aanpassingen voor Trio](https://github.com/nightscout/trio-oref).  
 

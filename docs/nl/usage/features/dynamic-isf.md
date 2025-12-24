@@ -14,8 +14,8 @@ Als u enige tijd heeft doorgebracht in de [Desmos Grafieken](../../configuration
 - Uw profiel ISF wordt niet direct gebruikt om uw ISF te bepalen wanneer Logaritmische Dynamische ISF is ingeschakeld. Het beïnvloedt de limieten van welke ISF is toegestaan.
 - Het aanpassen van uw profiel ISF bij gebruik van Logaritmische Dynamische ISF zal geen directe impact hebben op uw sensitiviteitsberekeningen. Het zal alleen impact hebben op de Maximum en Minimum waarden toegestaan.
 
-![ISF of 54](../../usage/img/isf_54.png){width="250"}
-![ISF of 80](../../usage/img/isf_80.png){width="250"}
+![ISF of 54](../../../../usage/img/isf_54.png){width="250"}
+![ISF of 80](../../../../usage/img/isf_80.png){width="250"}
 {align="center"}
 
 !!! tip "Profiel ISF Tip"
@@ -28,9 +28,9 @@ Als u enige tijd heeft doorgebracht in de [Desmos Grafieken](../../configuration
 
 Merk op hoe de grafiek verschuift richting (0,0) om de veranderingssnelheid te verhogen naarmate Aanpassingsfactor toeneemt. Hoewel dit verhoogt hoe snel ISF aanpast, als Autosens Maximum en Autosens Minimum niet ook worden aangepast, kan het de onbedoelde consequentie hebben van altijd een veel te hoge of veel te lage ISF te gebruiken.
 
-![AF of 40](../../usage/img/af_40.png){width="200"}
-![AF of 80](../../usage/img/af_80.png){width="200"}
-![AF of 180](../../usage/img/af_180.png){width="200"}
+![AF of 40](../../../../usage/img/af_40.png){width="200"}
+![AF of 80](../../../../usage/img/af_80.png){width="200"}
+![AF of 180](../../../../usage/img/af_180.png){width="200"}
 {align="center"}
 
 ### Overschrijvingen Gebruiken met Logaritmische Dynamische ISF (Using Overrides With Logarithmic Dynamic ISF)
@@ -43,8 +43,8 @@ Overschrijvingen (Overrides) veranderen uw profielinstellingen voordat ze worden
     
     Merk op hoe de berekende ISF lijn niet verandert met deze aanpassing aan de Profiel ISF, alleen de limieten van welk gedeelte van de curve zijn toegestaan. Het verschuift de limieten om alleen de lagere ISF delen van de grafiek toe te staan, wat betekent dat het toegestane ISF bereik 27-47 mg/dL/U zal zijn en de aanpassingen stoppen bij 47 mg/dL/U als glucose onder 126 mg/dL meet.
     
-    ![ISF of 50](../../usage/img/isf_50.png){width="250"}
-    ![ISF of 33](../../usage/img/isf_33.png){width="250"}
+    ![ISF of 50](../../../../usage/img/isf_50.png){width="250"}
+    ![ISF of 33](../../../../usage/img/isf_33.png){width="250"}
     {align="center"}
     
 !!! question "Welk effect zal het gebruik van een <100% Override hebben op Logaritmische Dynamische ISF?"
@@ -53,8 +53,8 @@ Overschrijvingen (Overrides) veranderen uw profielinstellingen voordat ze worden
     
     Merk op hoe de berekende ISF lijn niet verandert met deze aanpassing aan de Profiel ISF, alleen de limieten van welk gedeelte van de curve zijn toegestaan. Het verschuift de limieten om alleen de hogere ISF delen van de grafiek toe te staan, wat betekent dat het toegestane ISF bereik 59-100 mg/dL/U zal zijn en de aanpassingen worden beperkt als glucose hoger dan 87 mg/dL meet.
     
-    ![ISF of 50](../../usage/img/isf_50.png){width="250"}
-    ![ISF of 71](../../usage/img/isf_71.png){width="250"}
+    ![ISF of 50](../../../../usage/img/isf_50.png){width="250"}
+    ![ISF of 71](../../../../usage/img/isf_71.png){width="250"}
     {align="center"}
 
 ### Tijdelijke Doelen Gebruiken met Logaritmische Dynamische ISF (Using Temp Targets With Logarithmic Dynamic ISF)
@@ -76,9 +76,9 @@ Het is niet ongehoord dat er gelegenheden zijn waarop uw dagelijkse insulinegebr
 
 Gebruikmakend van een Totale Dagelijkse Dosis (TDD - Total Daily Dose) van 40 units als baseline, kunt u zien hoe dit de ISF berekeningen verandert wanneer TDD wordt gehalveerd (20 units) of verdubbeld (80 units).
 
-![TDD Decrease](../../usage/img/tdd_20.png){width="200"}
-![TDD Baseline](../../usage/img/tdd_40.png){width="200"}
-![TDD Increase](../../usage/img/tdd_80.png){width="200"}
+![TDD Decrease](../../../../usage/img/tdd_20.png){width="200"}
+![TDD Baseline](../../../../usage/img/tdd_40.png){width="200"}
+![TDD Increase](../../../../usage/img/tdd_80.png){width="200"}
 {align="center"}
 
 !!! tip "TDD & Logaritmisch Tip"
@@ -92,9 +92,9 @@ Gebruikmakend van een Totale Dagelijkse Dosis (TDD - Total Daily Dose) van 40 un
 
 Wanneer u wijzigingen aanbrengt aan uw Profiel ISF, ofwel als een profielinstelling wijziging of via een Override, zal het uw Sigmoïde Dynamische ISF curve verschuiven om ervoor te zorgen dat uw Profiel ISF altijd wordt gebruikt wanneer u op uw doel glucose bent.
     
-![ISF Decrease](../../usage/img/sig_isf_50.png){width="200"}
-![ISF Baseline](../../usage/img/sig_isf_70.png){width="200"}
-![ISF Increase](../../usage/img/sig_isf_100.png){width="200"}
+![ISF Decrease](../../../../usage/img/sig_isf_50.png){width="200"}
+![ISF Baseline](../../../../usage/img/sig_isf_70.png){width="200"}
+![ISF Increase](../../../../usage/img/sig_isf_100.png){width="200"}
 {align="center"}
     
 Hoewel het ook kan verschuiven hoe steil de curve is, en dus hoe snel en in welke mate aanpassingen veranderen, moet het veranderen van uw ISF met voorzichtigheid worden gedaan en niet als een middel om de curve te veranderen. Eerder is het aanpassen van uw [Aanpassingsfactor (Adjustment Factor)](../../configuration/settings/algorithm/dynamic-settings.md#sigmoid-adjustment-factor) de voorkeursmethode om aan te passen hoe snel waarden aanpassen.
@@ -108,8 +108,8 @@ Hoewel het ook kan verschuiven hoe steil de curve is, en dus hoe snel en in welk
 
 Het verhogen van uw Autosens Maximum heeft het verwachte effect van het verhogen van het percentage waarin ISF kan worden aangepast bij gebruik van Sigmoïde Dynamische ISF. Wat misschien niet zo verwacht is, is dat de steilheid van de curve ook verandert. Als u uw Autosens Maximum verhoogt met Sigmoïde, zult u zien dat de maximale sensitiviteitsratio toeneemt en ook de snelheid en hoeveelheid ISF veranderingen groter worden.
 
-![Autosens Max Baseline](../../usage/img/sig_asmax_120.png){width="250"}
-![Autosens Max Increase](../../usage/img/sig_asmax_180.png){width="250"}
+![Autosens Max Baseline](../../../../usage/img/sig_asmax_120.png){width="250"}
+![Autosens Max Increase](../../../../usage/img/sig_asmax_180.png){width="250"}
 {align="center"}
 
 !!! tip "Autosens Maximum Tip"
@@ -121,8 +121,8 @@ Het verlagen van uw Autosens Minimum heeft het verwachte effect van het verlagen
 
 Merk op hoe Sigmoïde nog steeds vergrendeld is op uw Profiel ISF dat wordt gebruikt wanneer glucose op doel is? En merk op hoeveel lege ruimte er bovenaan het oranje gedeelte is in de 50% grafiek? Dit betekent dat het verlagen van uw Autosens Minimum mogelijk niet daadwerkelijk de aanpassingen verlaagt in de mate die u hoopt, maar het enige merkbare resultaat kan zijn dat de curve steiler wordt.
 
-![Autosens Min Baseline](../../usage/img/sig_asmin_70.png){width="250"}
-![Autosens Min Decrease](../../usage/img/sig_asmin_50.png){width="250"}
+![Autosens Min Baseline](../../../../usage/img/sig_asmin_70.png){width="250"}
+![Autosens Min Decrease](../../../../usage/img/sig_asmin_50.png){width="250"}
 {align="center"}
 
 !!! tip "Autosens Minimum Tips"
@@ -136,9 +136,9 @@ Bij gebruik van Sigmoïde zal het verhogen van uw Aanpassingsfactor ertoe leiden
 
 U kunt in de onderstaande grafieken zien hoe de curve steiler wordt naarmate de Aanpassingsfactor toeneemt.
 
-![Adjustment Factor Decrease](../../usage/img/sig_af_30.png){width="200"}
-![Adjustment Factor Baseline](../../usage/img/sig_af_50.png){width="200"}
-![Adjustment Factor Increase](../../usage/img/sig_af_80.png){width="200"}
+![Adjustment Factor Decrease](../../../../usage/img/sig_af_30.png){width="200"}
+![Adjustment Factor Baseline](../../../../usage/img/sig_af_50.png){width="200"}
+![Adjustment Factor Increase](../../../../usage/img/sig_af_80.png){width="200"}
 {align="center"}
 
 !!! tip "Sigmoïde Aanpassingsfactor Tips"
@@ -150,8 +150,8 @@ U kunt in de onderstaande grafieken zien hoe de curve steiler wordt naarmate de 
 
 Het veranderen van uw Doel Glucose ofwel met een Override, Tijdelijk Doel, of profiel Doel wijziging, verschuift de Sigmoïde grafiek zodat uw Profiel ISF wordt gebruikt bij het nieuwe ingestelde Glucose Doel.
 
-![Target Glucose Baseline](../../usage/img/sig_target_100.png){width="250"}
-![Target Glucose Increase](../../usage/img/sig_target_150.png){width="250"}
+![Target Glucose Baseline](../../../../usage/img/sig_target_100.png){width="250"}
+![Target Glucose Increase](../../../../usage/img/sig_target_150.png){width="250"}
 {align="center"}
 
 !!! tip "Doel Glucose Tip"
@@ -163,11 +163,12 @@ Het is niet ongehoord dat er gelegenheden zijn waarop uw dagelijkse insulinegebr
 
 In de onderstaande grafieken kunt u zien hoe de grafiek verandert, maar niet veel naarmate de Totale Dagelijkse Dosis (TDD) van 50 units wordt gehalveerd naar 25 of verdubbeld naar 100 units. Het veroorzaakt dat de steilheid van de curve, dus de reactietijd dienovereenkomstig aanpast. Het vertraagt met een lagere TDD en versnelt met een hogere TDD.
 
-![TDD Decrease](../../usage/img/sig_tdd_25.png){width="200"}
-![TDD Baseline](../../usage/img/sig_tdd_50.png){width="200"}
-![TDD Increase](../../usage/img/sig_tdd_100.png){width="200"}
+![TDD Decrease](../../../../usage/img/sig_tdd_25.png){width="200"}
+![TDD Baseline](../../../../usage/img/sig_tdd_50.png){width="200"}
+![TDD Increase](../../../../usage/img/sig_tdd_100.png){width="200"}
 {align="center"}
 
 !!! tip "Sigmoïde & TDD Tip"
     - Hoogstwaarschijnlijk hoeft u geen aanpassingen aan Sigmoïde te maken als u een plotselinge toename of afname in TDD heeft.
+
 

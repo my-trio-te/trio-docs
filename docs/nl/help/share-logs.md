@@ -160,3 +160,4 @@ Als u niet comfortabel bent met het gebruik van de **command line in een termina
     tar -czf triologs.tar.gz log.txt log_prev.txt
     ```
 
+

@@ -47,3 +47,4 @@ Dit zal Trio in staat stellen om ononderbroken communicatie met uw pomp en CGM v
     Onthoud dat ieders diabetes anders is, en er is geen one-size-fits-all aanpak, dus neem de tijd om uw instellingen te optimaliseren voor het Oref algoritme.
 
 
+

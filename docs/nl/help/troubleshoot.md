@@ -80,3 +80,4 @@ In dit scenario krijgt u niet genoeg insuline vooraf om de koolhydraatabsorptie 
 
 Lees alstublieft door de hoofdstukken over [Autosens](../configuration/settings/algorithm/autosens.md) en [Dynamische instellingen (Dynamic settings)](../configuration/settings/algorithm/dynamic-settings.md).
 
+

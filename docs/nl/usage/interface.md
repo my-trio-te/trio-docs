@@ -1,7 +1,7 @@
 # Gebruikersinterface (User Interface)
 ## Trio Gebruikersinterface
 
-![Trio 1.0 UI](../usage/img/light_vs_dark_mode.png){width="600"}
+![Trio 1.0 UI](../../usage/img/light_vs_dark_mode.png){width="600"}
 {align="center"}
 
 - - -
@@ -10,7 +10,7 @@
 
 **Het hoofdscherm van Trio kan worden verdeeld in vier secties:**
 
-![Trio Main Screen](../usage/img/light_mode_sections.png){width="500"}
+![Trio Main Screen](../../usage/img/light_mode_sections.png){width="500"}
 {align="center"}
 
 Gebruik de onderstaande links om meer te leren over elke sectie:  
@@ -23,7 +23,7 @@ Gebruik de onderstaande links om meer te leren over elke sectie:
 De Huidige Status sectie functioneert als een gemakkelijk referentiepunt voor een verscheidenheid aan belangrijke datapunten.  
 Gebruik de onderstaande tabbladen om meer te leren over elke sectie:  
 
-![Trio Current Status](../usage/img/current_status.png){width="400"}
+![Trio Current Status](../../usage/img/current_status.png){width="400"}
 {align="center"}  
 
 <div class="grid" markdown>
@@ -31,7 +31,7 @@ Gebruik de onderstaande tabbladen om meer te leren over elke sectie:
 === "Huidige Glucose (Current Glucose)"
     Hier vindt u een gecentreerde cirkel met uw huidige glucosemeting, de tijd sinds de laatste glucosemeting, de verandering in glucose ten opzichte van de vorige meting, en een pijl die de trendrichting van uw glucose aangeeft.
 
-    ![Current Glucose](../usage/img/current_glucose.png){width="300"}
+    ![Current Glucose](../../usage/img/current_glucose.png){width="300"}
     {align="center"}
     
     !!! tip "Pro Tip"
@@ -40,7 +40,7 @@ Gebruik de onderstaande tabbladen om meer te leren over elke sectie:
 === "Pomp Info (Pump Info)"
 
     === "Omnipod Gebruikers"
-        ![Pump Info Omnipod](../usage/img/pump_info_omnipod.png){width="300"}
+        ![Pump Info Omnipod](../../usage/img/pump_info_omnipod.png){width="300"}
         {align="center"}
     
         * **Reservoir Status**: Resterende eenheden in uw pod  
@@ -48,7 +48,7 @@ Gebruik de onderstaande tabbladen om meer te leren over elke sectie:
         **Houd rekening met:** 50+ E betekent dat er meer dan 50 eenheden insuline over zijn. Omnipod geeft alleen een exacte waarde voor het reservoir als de hoeveelheid minder dan 50 eenheden is. 
     
     === "Medtronic & Dana Gebruikers"
-        ![Pump Info Medt](../usage/img/pump_info_medt.png){width="300"}
+        ![Pump Info Medt](../../usage/img/pump_info_medt.png){width="300"}
         {align="center"}
     
         * **Reservoir Status**: Resterende eenheden in uw reservoir  
@@ -58,7 +58,7 @@ Gebruik de onderstaande tabbladen om meer te leren over elke sectie:
 === "Loop Info"
     Rechts van de cirkel vindt u de huidige loopingstatus (looping status) en de tijd sinds de laatste loopcyclus (loop cycle). Daaronder staat uw 4-uurs glucosevoorspelling (glucose forecast).
     
-    ![Loop Info](../usage/img/loop_info.png){width="300"}
+    ![Loop Info](../../usage/img/loop_info.png){width="300"}
     {align="center"}
     
     De Loop Indicator vertelt u hoe lang het geleden is sinds de laatste loopcyclus met behulp van specifieke kleuren:
@@ -81,7 +81,7 @@ Gebruik de onderstaande tabbladen om meer te leren over elke sectie:
 === "Huidige Metrieken (Current Metrics)"
     Onder de cirkel vindt u 3 iconen die u voorzien van de huidige IOB (Insulin on Board - Insuline aan Boord), COB (Carbs on Board - Koolhydraten aan Boord), en aangepaste basaalstand (adjusted basal rate). Deze waarden zijn bepaald door de berekeningen die zijn gemaakt in de meest recente loopcyclus.
     
-    ![Current Metrics](../usage/img/current_metrics.png){width="300"}
+    ![Current Metrics](../../usage/img/current_metrics.png){width="300"}
     {align="center"}
 
 </div>
@@ -93,7 +93,7 @@ Gebruik de onderstaande tabbladen om meer te leren over elke sectie:
 Het midden van het scherm toont een grafiek van uw bloedsuikergegevens en ingevoerde koolhydraten, overlaid met de insulinetoediening en glucosevoorspelling van Trio.  
 Gebruik de tabbladen onder de afbeelding om meer te leren over elke sectie.  
 
-![Trio Graph and History](../usage/img/graph_and_history.png){width="400"}
+![Trio Graph and History](../../usage/img/graph_and_history.png){width="400"}
 {align="center"}
 
 <div class="grid" markdown>
@@ -101,45 +101,45 @@ Gebruik de tabbladen onder de afbeelding om meer te leren over elke sectie.
 === "Basaal Aanpassingen (Basal Adjustments)"
     Hier vindt u de aanpassingen die zijn gemaakt aan uw basaaltoediening. Zie hieronder voor meer details:  
     
-    ![Basal Line](../usage/img/blue_basal_line.png){width="40" style="vertical-align: middle;"}  **Therapie Basaal Referentielijn (Therapy Basal Reference Line):** De stand die u heeft ingevoerd in de instellingen. (In Trio 0.2.x heette dit "Profile Basal Rate")  
-    ![No Adjustment](../usage/img/no_adjustment.png){width="40" style="vertical-align: middle;"}  **Geen Basaal Aanpassing (No Basal Adjustment)** Basaal wordt toegediend op uw huidige therapie basaalstand.  
-    ![Basal Increase](../usage/img/basal_increase.png){width="40" style="vertical-align: middle;"}  **Basaal Verhoging (Basal Increase)** Basaal verhoogd boven uw huidige therapie basaalstand.  
-    ![Basal Decrease](../usage/img/basal_decrease.png){width="40" style="vertical-align: middle;"}  **Basaal Verlaging (Basal Decrease)** Basaal verlaagd onder uw huidige therapie basaalstand.  
+    ![Basal Line](../../usage/img/blue_basal_line.png){width="40" style="vertical-align: middle;"}  **Therapie Basaal Referentielijn (Therapy Basal Reference Line):** De stand die u heeft ingevoerd in de instellingen. (In Trio 0.2.x heette dit "Profile Basal Rate")  
+    ![No Adjustment](../../usage/img/no_adjustment.png){width="40" style="vertical-align: middle;"}  **Geen Basaal Aanpassing (No Basal Adjustment)** Basaal wordt toegediend op uw huidige therapie basaalstand.  
+    ![Basal Increase](../../usage/img/basal_increase.png){width="40" style="vertical-align: middle;"}  **Basaal Verhoging (Basal Increase)** Basaal verhoogd boven uw huidige therapie basaalstand.  
+    ![Basal Decrease](../../usage/img/basal_decrease.png){width="40" style="vertical-align: middle;"}  **Basaal Verlaging (Basal Decrease)** Basaal verlaagd onder uw huidige therapie basaalstand.  
     
 === "Huidige & Eerdere Activiteit (Current & Previous Activity)"
     Deze sectie toont een gecombineerd overzicht van uw eerdere, huidige en voorspelde activiteit.
     
         
-    === "![Cone of Uncertainty](../usage/img/cone_of_uncertainty.png){width="20" style="vertical-align: middle;"}  **Onzekerheidskegel (Cone of Uncertainty)**"
+    === "![Cone of Uncertainty](../../usage/img/cone_of_uncertainty.png){width="20" style="vertical-align: middle;"}  **Onzekerheidskegel (Cone of Uncertainty)**"
         
         !!! info inline end "Grafiek Legenda (Graph Legend)"
     
             <span style="color: #35c759;">:fontawesome-solid-circle:</span>  CGM Glucosewaarde  
             <span style="color: #35c759;">:fontawesome-solid-circle-dot:</span>  CGM Glucosewaarde (Afgevlakt / Smoothed)  
             <span style="color: red;">:fontawesome-solid-droplet:</span>  Handmatige Glucose Invoer  
-            ![Bolus Icon](../usage/img/bolus.png){width="15" style="vertical-align: middle;"}  Bolus (SMB of Handmatig)  
-            ![Carb Icon](../usage/img/carb.png){width="15" style="vertical-align: middle;"}  Koolhydraten Invoer  
+            ![Bolus Icon](../../usage/img/bolus.png){width="15" style="vertical-align: middle;"}  Bolus (SMB of Handmatig)  
+            ![Carb Icon](../../usage/img/carb.png){width="15" style="vertical-align: middle;"}  Koolhydraten Invoer  
             <span style="color: #a1845c;">:fontawesome-solid-circle:</span>  Vet-Eiwit Koolhydraat Equivalent (FPU - Fat-Protein Unit)  
-            ![Override Icon](../usage/img/override_icon.png){width="15" style="vertical-align: middle;"}  Overschrijving Actief (Override Active)  
-            ![Temp Target Icon](../usage/img/temp_target_icon.png){width="15" style="vertical-align: middle;"}  Tijdelijk Doel Actief (Temp Target Active)  
-            ![Target Glucose Icon](../usage/img/target_glucose.png){width="15" style="vertical-align: middle;"}  Doelglucose (Target Glucose)  
+            ![Override Icon](../../usage/img/override_icon.png){width="15" style="vertical-align: middle;"}  Overschrijving Actief (Override Active)  
+            ![Temp Target Icon](../../usage/img/temp_target_icon.png){width="15" style="vertical-align: middle;"}  Tijdelijk Doel Actief (Temp Target Active)  
+            ![Target Glucose Icon](../../usage/img/target_glucose.png){width="15" style="vertical-align: middle;"}  Doelglucose (Target Glucose)  
         
         
         Deze voorspellingsoptie toont het volledige bereik van mogelijke voorspelde voorspellingen als een vereenvoudigde weergave van oref's vier voorspellingslijnen.  
         
-    === "![Forecast Lines](../usage/img/forecast_lines.png){width="20" style="vertical-align: middle;"}  **Voorspellingslijnen (Forecast Lines)**"
+    === "![Forecast Lines](../../usage/img/forecast_lines.png){width="20" style="vertical-align: middle;"}  **Voorspellingslijnen (Forecast Lines)**"
         
         !!! info inline end "Grafiek Legenda (Graph Legend)"
     
             <span style="color: #35c759;">:fontawesome-solid-circle:</span>  CGM Glucosewaarde  
             <span style="color: #35c759;">:fontawesome-solid-circle-dot:</span>  CGM Glucosewaarde (Afgevlakt)  
             <span style="color: red;">:fontawesome-solid-droplet:</span>  Handmatige Glucose Invoer  
-            ![Bolus Icon](../usage/img/bolus.png){width="15" style="vertical-align: middle;"}  Bolus (SMB of Handmatig)  
-            ![Carb Icon](../usage/img/carb.png){width="15" style="vertical-align: middle;"}  Koolhydraten Invoer  
+            ![Bolus Icon](../../usage/img/bolus.png){width="15" style="vertical-align: middle;"}  Bolus (SMB of Handmatig)  
+            ![Carb Icon](../../usage/img/carb.png){width="15" style="vertical-align: middle;"}  Koolhydraten Invoer  
             <span style="color: #a1845c;">:fontawesome-solid-circle:</span>  Vet-Eiwit Koolhydraat Equivalent (FPU)  
-            ![Override Icon](../usage/img/override_icon.png){width="15" style="vertical-align: middle;"}  Overschrijving Actief  
-            ![Temp Target Icon](../usage/img/temp_target_icon.png){width="15" style="vertical-align: middle;"}  Tijdelijk Doel Actief  
-            ![Target Glucose Icon](../usage/img/target_glucose.png){width="15" style="vertical-align: middle;"}  Doelglucose  
+            ![Override Icon](../../usage/img/override_icon.png){width="15" style="vertical-align: middle;"}  Overschrijving Actief  
+            ![Temp Target Icon](../../usage/img/temp_target_icon.png){width="15" style="vertical-align: middle;"}  Tijdelijk Doel Actief  
+            ![Target Glucose Icon](../../usage/img/target_glucose.png){width="15" style="vertical-align: middle;"}  Doelglucose  
         
         
         <span style="color: #1895ff;">:fontawesome-solid-circle:</span>  **IOB Voorspelling (IOB Forecast):** Voorspelt toekomstige glucosemetingen op basis van de hoeveelheid insuline die nog actief is in het lichaam  
@@ -149,38 +149,38 @@ Gebruik de tabbladen onder de afbeelding om meer te leren over elke sectie.
     
     - - -
         
-    === "![Static Glucose](../usage/img/static_glucose.png){width="18" style="vertical-align: middle;"} Statische Glucose Kleur (Static Glucose Color)"
+    === "![Static Glucose](../../usage/img/static_glucose.png){width="18" style="vertical-align: middle;"} Statische Glucose Kleur (Static Glucose Color)"
         
         !!! info inline end "Drempelwaarde Grafiek Legenda (Threshold Graph Legend)"
     
-            ![High Threshold Static Icon](../usage/img/high_threshold_static.png){width="15" style="vertical-align: middle;"}  Hoge Drempelwaarde (High Threshold)   
-            ![Low Threshold Static Icon](../usage/img/low_threshold_static.png){width="15" style="vertical-align: middle;"}  Lage Drempelwaarde (Low Threshold)  
+            ![High Threshold Static Icon](../../usage/img/high_threshold_static.png){width="15" style="vertical-align: middle;"}  Hoge Drempelwaarde (High Threshold)   
+            ![Low Threshold Static Icon](../../usage/img/low_threshold_static.png){width="15" style="vertical-align: middle;"}  Lage Drempelwaarde (Low Threshold)  
             <span style="color: #fe9607;">:fontawesome-solid-circle:</span>  Glucose Boven Bereik (Above Range)  
             <span style="color: #35c759;">:fontawesome-solid-circle:</span>  Glucose Binnen Bereik (In Range)  
             <span style="color: #ff3131;">:fontawesome-solid-circle:</span>  Glucose Onder Bereik (Below Range)      
             
-        ![Static Color Graph](../usage/img/static_color_graph.png){width="300"}
+        ![Static Color Graph](../../usage/img/static_color_graph.png){width="300"}
         {align="center"}
         
-    === "![Dynamic Glucose](../usage/img/dynamic_glucose.png){width="20" style="vertical-align: middle;"} Dynamische Glucose Kleur (Dynamic Glucose Color)"
+    === "![Dynamic Glucose](../../usage/img/dynamic_glucose.png){width="20" style="vertical-align: middle;"} Dynamische Glucose Kleur (Dynamic Glucose Color)"
     
         !!! info inline end "Drempelwaarde Grafiek Legenda"
     
-            ![High Threshold Dynamic Icon](../usage/img/high_threshold_dynamic.png){width="15" style="vertical-align: middle;"}  Hoge Drempelwaarde (=180)  
-            ![Low Threshold Dynamic Icon](../usage/img/low_threshold_dynamic.png){width="15" style="vertical-align: middle;"}  Lage Drempelwaarde (=70)  
-            ![Above Target Icon](../usage/img/above_target_glucose_icon.png){width="15" style="vertical-align: middle;"}  Boven Doel (Above Target)  
-            ![At Target Icon](../usage/img/at_or_near_target.png){width="15" style="vertical-align: middle;"}  Op of Nabij Doel (At or Near Target)  
-            ![Below Target Icon](../usage/img/below_target_glucose_icon.png){width="15" style="vertical-align: middle;"}  Onder Doel (Below Target)  
+            ![High Threshold Dynamic Icon](../../usage/img/high_threshold_dynamic.png){width="15" style="vertical-align: middle;"}  Hoge Drempelwaarde (=180)  
+            ![Low Threshold Dynamic Icon](../../usage/img/low_threshold_dynamic.png){width="15" style="vertical-align: middle;"}  Lage Drempelwaarde (=70)  
+            ![Above Target Icon](../../usage/img/above_target_glucose_icon.png){width="15" style="vertical-align: middle;"}  Boven Doel (Above Target)  
+            ![At Target Icon](../../usage/img/at_or_near_target.png){width="15" style="vertical-align: middle;"}  Op of Nabij Doel (At or Near Target)  
+            ![Below Target Icon](../../usage/img/below_target_glucose_icon.png){width="15" style="vertical-align: middle;"}  Onder Doel (Below Target)  
             
             _*De kleuren van de drempelwaardenlijnen zijn ook dynamisch, dus de exacte kleuring hangt af van uw instellingen_ 
         
-        ![Dynamic Color Graph](../usage/img/dynamic_color_graph.png){width="300"}
+        ![Dynamic Color Graph](../../usage/img/dynamic_color_graph.png){width="300"}
         {align="center"}
     
 === "Actieve Insuline & Koolhydraten (Active Insulin & Carbs)"
     Deze sectie toont de afname van uw actieve insuline en koolhydraten.  
     
-    ![Active Insulin Carbs](../usage/img/active_ins_carb.png){width="300"}
+    ![Active Insulin Carbs](../../usage/img/active_ins_carb.png){width="300"}
     {align="center"}
     
     Insuline wordt getoond in <span style="color: #7d8cf2;">blauw</span> en koolhydraten worden getoond in <span style="color: #ff8340;">oranje</span>.
@@ -188,7 +188,7 @@ Gebruik de tabbladen onder de afbeelding om meer te leren over elke sectie.
 === "Statistieken & Weergave Info (Stats & Display Info)"
     Hier vindt u 3 hoofdsecties voor statistieken en weergave-informatie.
     
-    ![Stats and Display](../usage/img/stats_and_display.png){width="300"}
+    ![Stats and Display](../../usage/img/stats_and_display.png){width="300"}
         {align="center"}
     
     === "Statistieken (Statistics)"
@@ -213,31 +213,31 @@ Gebruik de onderstaande tabbladen om meer te leren:
 <div class="grid" markdown>
 
 === "Geen Actieve Aanpassing (No Active Adjustment)"
-    ![No Active Adjustment](../usage/img/no_active_adjustment.png){width="300"}
+    ![No Active Adjustment](../../usage/img/no_active_adjustment.png){width="300"}
     {align="center"}
     
     - Dit is de standaardweergave wanneer er geen bolus-in-uitvoering, actieve overschrijving, of actief tijdelijk doel is
     
-=== "![Bolus Active Icon](../usage/img/bolus_icon.png){width="10" style="vertical-align: middle;"} Bolus in Uitvoering (Bolus in Progress)"
-    ![Bolus in Progress](../usage/img/bolus_in_progress.png){width="300"}
+=== "![Bolus Active Icon](../../usage/img/bolus_icon.png){width="10" style="vertical-align: middle;"} Bolus in Uitvoering (Bolus in Progress)"
+    ![Bolus in Progress](../../usage/img/bolus_in_progress.png){width="300"}
     {align="center"}
     
     - Toont de status van de huidige bolus
-    - Druk op de ![Cancel Icon](../usage/img/x_square.png){width="20" style="vertical-align: middle;"} om de huidige bolus te annuleren
+    - Druk op de ![Cancel Icon](../../usage/img/x_square.png){width="20" style="vertical-align: middle;"} om de huidige bolus te annuleren
     
-=== "![Override Icon](../usage/img/icon_override.png){width="15" style="vertical-align: middle;"} Actieve Overschrijving (Active Override)"
-    ![Active Override](../usage/img/override_active.png){width="300"}
+=== "![Override Icon](../../usage/img/icon_override.png){width="15" style="vertical-align: middle;"} Actieve Overschrijving (Active Override)"
+    ![Active Override](../../usage/img/override_active.png){width="300"}
     {align="center"}
     
     - Toont details van de huidige actieve overschrijving
-    - Druk op de ![Cancel Icon](../usage/img/x_square.png){width="20" style="vertical-align: middle;"} om de overschrijving te annuleren
+    - Druk op de ![Cancel Icon](../../usage/img/x_square.png){width="20" style="vertical-align: middle;"} om de overschrijving te annuleren
     
-=== "![Temp Target Icon](../usage/img/target.png){width="15" style="vertical-align: middle;"} Actief Tijdelijk Doel (Active Temp Target)"
-    ![Active Temp Target](../usage/img/temp_target_active.png){width="300"}
+=== "![Temp Target Icon](../../usage/img/target.png){width="15" style="vertical-align: middle;"} Actief Tijdelijk Doel (Active Temp Target)"
+    ![Active Temp Target](../../usage/img/temp_target_active.png){width="300"}
     {align="center"}
     
     - Toont details van het huidige actieve tijdelijke doel
-    - Druk op de ![Cancel Icon](../usage/img/x_square.png){width="20" style="vertical-align: middle;"} om het tijdelijke doel te annuleren
+    - Druk op de ![Cancel Icon](../../usage/img/x_square.png){width="20" style="vertical-align: middle;"} om het tijdelijke doel te annuleren
 
 </div>
 
@@ -247,17 +247,17 @@ Gebruik de onderstaande tabbladen om meer te leren:
 
 Onderaan het scherm heeft u vijf actieknoppen. Gebruik de onderstaande tabbladen om meer te leren over elke sectie:  
 
-![Trio Actions](../usage/img/actions.png){width="400"}
+![Trio Actions](../../usage/img/actions.png){width="400"}
 {align="center"}
 
 <!-- Intentionally left off the "s" in the nested Adjustments tab title because it keeps jumping to the Adjustments tab above -->
 
 <div class="grid" markdown>
 
-=== "![Main Icon](../usage/img/icon_main.png){width="15" style="vertical-align: middle;"} Hoofd (Main)"
+=== "![Main Icon](../../usage/img/icon_main.png){width="15" style="vertical-align: middle;"} Hoofd (Main)"
     Deze knop brengt u terug naar het startscherm, ongeacht waar u zich in de app bevindt.
     
-=== "![History Icon](../usage/img/icon_history.png){width="15" style="vertical-align: middle;"} Geschiedenis (History)"
+=== "![History Icon](../../usage/img/icon_history.png){width="15" style="vertical-align: middle;"} Geschiedenis (History)"
     Deze knop opent het Geschiedenisscherm. Hier vindt u eerdere behandelingen (treatments), maaltijdinvoeren, glucosemetingen & handmatige glucose-invoeren, en eerder gebruik van aanpassingen. Hier kunt u een vingerprik glucose-invoer toevoegen door op de "+" rechtsboven te tikken.  
     **Meer informatie over elk tabblad:**
     
@@ -283,7 +283,7 @@ Onderaan het scherm heeft u vijf actieknoppen. Gebruik de onderstaande tabbladen
 === "<span style="color: #7d8cf2;">:fontawesome-solid-circle-plus:</span> Koolhydraat & Bolus Invoer (Carb & Bolus Entry)"
     Deze knop opent het behandelingsinvoerscherm, ook wel bekend als de boluscalculator (bolus calculator).
     
-=== "![Adjustments Icon](../usage/img/icon_adjust.png){width="15" style="vertical-align: middle;"} Aanpassingen (Adjustments)"
+=== "![Adjustments Icon](../../usage/img/icon_adjust.png){width="15" style="vertical-align: middle;"} Aanpassingen (Adjustments)"
     Deze knop opent het Overschrijvingen en Tijdelijke Doelen scherm.  
     Meer informatie over elke optie:
     
@@ -310,7 +310,7 @@ Onderaan het scherm heeft u vijf actieknoppen. Gebruik de onderstaande tabbladen
         - U kunt het opslaan als voorinstelling om later uit te voeren, het tijdelijke doel nu starten, of een starttijd instellen voor een toekomstig tijdstip en/of datum.
             - Als u een vooringesteld tijdelijk doel moet bewerken of verwijderen, veeg dan gewoon naar links op het tijdelijke doel
                 
-=== "![Settings Icon](../usage/img/icon_settings.png){width="15" style="vertical-align: middle;"} Instellingen (Settings)"
+=== "![Settings Icon](../../usage/img/icon_settings.png){width="15" style="vertical-align: middle;"} Instellingen (Settings)"
     Deze knop opent het instellingenmenu
     Hieronder vindt u (_binnenkort_) links naar elk van de instellingenpagina's binnen de docs die correleren met de menu's die u ziet:  
     - Gesloten Loop (Closed Loop)  
